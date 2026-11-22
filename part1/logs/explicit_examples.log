@@ -1,0 +1,62 @@
+Theorem A holds for (2, -1, 3, 0, 1, 4, -2, 5)
+Det -4
+Delta=4 x = (1, 0, 0, -1, 0, -1, -1, 0) Delta = 4 gcd 1 gcdT 2
+   xt = (0, 1, 1, 0, 1, 0, 0, -1) Delta(xt) = 4 gcd 1 gcdT 2
+   forms x  [(1, 0, 1), (1, 0, 1), (1, 0, 1)] contents [1, 1, 1]
+   forms xt [(1, 0, 1), (1, 0, 1), (1, 0, 1)]
+   gcd(x+xt) = 1 gcd(x-xt) = 1
+   Phi_1 = ((0, -1), (1, 0)) Phi x = True
+   Phi_2 = ((0, -1), (1, 0)) Phi x = True
+   Phi_3 = ((0, -1), (1, 0)) Phi x = True
+
+Delta=256 a x = (-4, -6, -2, 2, -2, 2, 0, 2) Delta = 256 gcd 2 gcdT 16
+   xt = (3, -8, -1, -4, -1, -4, -1, 0) Delta(xt) = 256 gcd 1 gcdT 32
+   forms x  [(20, -8, 4), (20, -8, 4), (4, 0, 16)] contents [4, 4, 4]
+   forms xt [(20, -8, 4), (20, -8, 4), (4, 0, 16)]
+   gcd(x+xt) = 1 gcd(x-xt) = 1
+Delta=256 b x = (0, 1, 4, 0, 4, 0, 0, -4) Delta = 256 gcd 1 gcdT 32
+   xt = (-2, 0, 0, 2, 0, 2, 8, 0) Delta(xt) = 256 gcd 2 gcdT 16
+   forms x  [(4, 0, 16), (4, 0, 16), (16, 0, 4)] contents [4, 4, 4]
+   forms xt [(4, 0, 16), (4, 0, 16), (16, 0, 4)]
+   gcd(x+xt) = 1 gcd(x-xt) = 1
+Delta=576 x = (-4, -9, -2, 3, -2, 3, 0, 3) Delta = 576 gcd 1 gcdT 24
+   xt = (3, -12, -1, -6, -1, -6, -1, 0) Delta(xt) = 576 gcd 1 gcdT 24
+   forms x  [(30, -12, 6), (30, -12, 6), (4, 0, 36)] contents [6, 6, 4]
+   forms xt [(30, -12, 6), (30, -12, 6), (4, 0, 36)]
+   gcd(x+xt) = 1 gcd(x-xt) = 1
+D0D6 m=1 x = (1, 0, 0, 0, 0, 0, 0, 1) Delta = -1 gcd 1 gcdT 1
+   xt = (1, 0, 0, 0, 0, 0, 0, -1) Delta(xt) = -1 gcd 1 gcdT 1
+   forms x  [(0, 1, 0), (0, 1, 0), (0, 1, 0)] contents [1, 1, 1]
+   forms xt [(0, -1, 0), (0, -1, 0), (0, -1, 0)]
+   gcd(x+xt) = 2 gcd(x-xt) = 2
+D0D6 m=2 x = (1, 0, 0, 0, 0, 0, 0, 2) Delta = -4 gcd 1 gcdT 2
+   xt = (1, 0, 0, 0, 0, 0, 0, -2) Delta(xt) = -4 gcd 1 gcdT 2
+   forms x  [(0, 2, 0), (0, 2, 0), (0, 2, 0)] contents [2, 2, 2]
+   forms xt [(0, -2, 0), (0, -2, 0), (0, -2, 0)]
+   gcd(x+xt) = 2 gcd(x-xt) = 4
+D0D6 m=3 x = (1, 0, 0, 0, 0, 0, 0, 3) Delta = -9 gcd 1 gcdT 3
+   xt = (1, 0, 0, 0, 0, 0, 0, -3) Delta(xt) = -9 gcd 1 gcdT 3
+   forms x  [(0, 3, 0), (0, 3, 0), (0, 3, 0)] contents [3, 3, 3]
+   forms xt [(0, -3, 0), (0, -3, 0), (0, -3, 0)]
+   gcd(x+xt) = 2 gcd(x-xt) = 6
+nonBPS U-dual m=2 x = (-1, 1, 0, 0, 0, 0, -1, -1) Delta = -4 gcd 1 gcdT 2
+   xt = (-1, 1, 0, 0, 0, 0, 1, 1) Delta(xt) = -4 gcd 1 gcdT 2
+   forms x  [(0, 2, 0), (0, 2, 0), (-1, 0, 1)] contents [2, 2, 1]
+   forms xt [(0, -2, 0), (0, -2, 0), (1, 0, -1)]
+   gcd(x+xt) = 2 gcd(x-xt) = 2
+   (J^-1,J^-1,J) x == xt: True
+nonBPS U-dual m=5 x = (-2, 1, 0, 0, 0, 0, -1, -2) Delta = -25 gcd 1 gcdT 5
+   xt = (-2, 1, 0, 0, 0, 0, 1, 2) Delta(xt) = -25 gcd 1 gcdT 5
+   forms x  [(0, 5, 0), (0, 5, 0), (-2, 3, 2)] contents [5, 5, 1]
+   forms xt [(0, -5, 0), (0, -5, 0), (2, -3, -2)]
+   gcd(x+xt) = 2 gcd(x-xt) = 2
+   (J^-1,J^-1,J) x == xt: True
+
+D6-D2 family x = e000 + q3 e011 + q2 e101 + q1 e110
+D6-D2 family claims verified for |q_i| <= 12; 384 integral cases
+D6-D2 q=(-4,-4,-4) x = (1, 0, 0, -4, 0, -4, -4, 0) Delta = 256 gcd 1 gcdT 32
+   xt = (0, 2, 2, 0, 2, 0, 0, -8) Delta(xt) = 256 gcd 2 gcdT 16
+   forms x  [(4, 0, 16), (4, 0, 16), (4, 0, 16)] contents [4, 4, 4]
+   forms xt [(4, 0, 16), (4, 0, 16), (4, 0, 16)]
+   gcd(x+xt) = 1 gcd(x-xt) = 1
+q=(-4,-1,-1): Delta 16 T (0, 2, 8, 0, 8, 0, 0, -8)

@@ -1,0 +1,11 @@
+BPS, Delta = 256 (k = 8): F-dual integral and not U-dual (contents (4,4,4))
+  x  = (-4, -6, -2, 2, -2, 2, 0, 2)  Delta = 256  gcd = 2  forms [(20, -8, 4), (20, -8, 4), (4, 0, 16)]
+  x~ = (3, -8, -1, -4, -1, -4, -1, 0)  Delta = 256  gcd = 1  forms [(20, -8, 4), (20, -8, 4), (4, 0, 16)]  same orbit: False
+  x  = (0, 1, 4, 0, 4, 0, 0, -4)  Delta = 256  gcd = 1  forms [(4, 0, 16), (4, 0, 16), (16, 0, 4)]
+  x~ = (-2, 0, 0, 2, 0, 2, 8, 0)  Delta = 256  gcd = 2  forms [(4, 0, 16), (4, 0, 16), (16, 0, 4)]  same orbit: False
+non-BPS, Delta = -4: F-dual integral and not U-dual
+  x  = (1, 0, 0, 0, 0, 0, 0, 2)  Delta = -4  gcd = 1  forms [(0, 2, 0), (0, 2, 0), (0, 2, 0)]
+  x~ = (1, 0, 0, 0, 0, 0, 0, -2)  gcd = 1  forms [(0, -2, 0), (0, -2, 0), (0, -2, 0)]
+non-BPS, Delta = -9: F-dual integral and not U-dual
+  x  = (1, 0, 0, 0, 0, 0, 0, 3)  Delta = -9  gcd = 1  forms [(0, 3, 0), (0, 3, 0), (0, 3, 0)]
+  x~ = (1, 0, 0, 0, 0, 0, 0, -3)  gcd = 1  forms [(0, -3, 0), (0, -3, 0), (0, -3, 0)]

@@ -1,0 +1,7 @@
+D0-D6 x=(1,0,...,0,m): F-dual (1,0,...,0,-m) U-equivalent for m in [1] ; inequivalent for all other m <= 40
+k=8: gcd(x), gcd(x~) over U-inequivalent F-dual pairs: [(1, 2), (2, 1)]
+k=12: gcd(x), gcd(x~) over U-inequivalent F-dual pairs: [(1, 1)]
+k=16: gcd(x), gcd(x~) over U-inequivalent F-dual pairs: [(1, 1), (1, 2), (2, 1)]
+k=18: gcd(x), gcd(x~) over U-inequivalent F-dual pairs: [(1, 1)]
+k=20: gcd(x), gcd(x~) over U-inequivalent F-dual pairs: [(1, 1)]
+k=24: gcd(x), gcd(x~) over U-inequivalent F-dual pairs: [(1, 1), (1, 2), (2, 1)]

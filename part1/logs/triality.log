@@ -1,0 +1,8 @@
+Delta=256 x~ in Gamma x S3 orbit of x: False
+Delta=576 x~ in Gamma x S3 orbit of x: False
+non-BPS m=8: F-integral classes 80, U-dual 4, U-dual with triality 10
+non-BPS m=9: F-integral classes 45, U-dual 1, U-dual with triality 7
+done
+non-BPS m <= 16: 1064 F-integral classes, explicit criterion failures: 0
+BPS k <= 12: 314 F-integral positive classes, content criterion failures: 0; Phi_j integral gives x~ exactly
+non-BPS m <= 16: 1064 F-integral classes; triality criterion failures: 0
