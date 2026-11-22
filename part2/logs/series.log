@@ -1,0 +1,5 @@
+F_+ = zeta L(chi) zeta(3s-1)/L(3s,chi), E_+ = zeta L(chi): True
+F_- = zeta^2 zeta(3s-1)/zeta(3s) (1 + 2^-s (1-2^-s)^2/(1-2^-3s)): True
+E_- = zeta(2s) zeta(3s) L(3s,chi)/zeta(6s) (1 + 2^-s (1-2^-2s)/(1+2^-3s)): True
+sum rho(n) n^-s = zeta L(chi)/zeta(2s): True
+coefficients checked up to 3000

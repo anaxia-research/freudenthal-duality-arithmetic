@@ -1,0 +1,10 @@
+hat Q = -H/36: True
+Det(T) = Det^3: True
+T(T(f)) = -Delta^2 f: True
+hess(T(f)) = Delta hess(f): True
+syzygy T(f)^2 + Delta f^2 = 4 hatQ^3: True
+R f = -Delta T(f) (diagonal action): True
+R^2 = Det * 1: True
+(g f)(u,v) = f(g^T (u,v)): True
+hatQ(g f) = det(g)^2 hatQ(g^T (u,v)): True
+Delta(g f) = det(g)^6 Delta(f): True
