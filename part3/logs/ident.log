@@ -1,0 +1,17 @@
+Q_S(w) = -det x(w,.,.), Q_T(w) = -det x(.,w,.): True True
+disc Q_S = disc Q_T = -Delta: True True
+(g.x)(w1,w2,w2) = x(w1 g1, w2 g2, w2 g2): True
+Delta(g.x) = det(g1)^2 det(g2)^4 Delta(x): True
+Q_S(g.x)(w) = det(g2)^2 Q_S(x)(w g1): True
+Q_T(g.x)(w) = det(g1) det(g2) Q_T(x)(w g2): True
+T(g.x) = det(g1) det(g2)^2 g.T(x): True
+Delta(T(x)) = Delta^3: True
+T(T(x)) = -Delta^2 x: True
+Q_S(T(x)) = Delta Q_S(x), Q_T(T(x)) = Delta Q_T(x): True True
+syzygy T(x)(w1,w2,w2)^2 + Delta x(w1,w2,w2)^2 = 4 Q_S(w1) Q_T(w2)^2: True
+R_S = -2 H_S J: True
+R_S^2 = -Delta * 1, det R_S = Delta: True True
+T(x) = R_S acting on the S index: True
+T(x) = R_T acting on one T index (either one): True True
+(1, R_T) x = -Delta x: True
+Delta = -a**2*g**2 + 4*a*b*f*g + 2*a*c*e*g - 4*a*c*f**2 - 4*b**2*e*g + 4*b*c*e*f - c**2*e**2

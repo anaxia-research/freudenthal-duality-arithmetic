@@ -1,0 +1,26 @@
+triple product T(x) as written in Section 2: True
+Delta as written: True
+A x B = (-R, q, -P) for Q_T = (P, q, R): True
+Q_S(u, v) = (b^2 - ac)(uA + vB): True
+R_S(g.x) = g1 R_S(x) g1^{-1} for (g1, g2) in SL2(Z)^2 (3000 random charges): True
+iota = (1, E): commutes with T and with duality, fixes Q_S and Delta, Q_T(iota x)(w) = -Q_T(x)(wE), iota (g1, g2) iota = (g1, E g2 E): True
+Delta > 0: Q_S positive definite, Q_T definite, iota changes the sign of Q_T (1008 charges): True
+T^3 charges (a, b, c, d) -> (a, b, c, b, c, d): same Delta, Q_S = Q_T = Hessian, Q_T > 0 when Delta > 0: True
+rank-one factorizations, D_S = rho_S(-i), stabilizers, real dualities (square -1 in the non-BPS case), (1, D_T) x = -sgn(Delta) x and Freudenthal rotations at 200 BPS and 200 non-BPS charges; largest error 8.52e-26
+BPS, k <= 40: the stabilizer in SL2(Z)^2 is {(1, +-1)}, or {(1, +-1), (-1, +-D_T)} when cont(Q_T) = k; the elements taking x to x~ are (D_S, +-1), and also (-D_S, +-D_T) when cont(Q_T) = k: True
+   orbits by number of elements taking x to x~: {0: 2832, 2: 50, 4: 64}  by stabilizer order: {2: 262, 4: 2684}
+Delta = 16 example: (1, 0, -1, 0, -2, 0) Delta 16 dual (0, 1, 0, 2, 0, -2) Q_S (1, 0, 4) Q_T (2, 0, 2) ST^2-U-dual False STU-U-dual True canonical forms (-1, 0, 1, 0, 2, 0) (0, -1, 0, -2, 0, 2)
+   x + i x~ = (u1 + 2i v1)(u2 + i v2)^2: True ; the dual lies in the orbit of Re((2u1 + i v1)(u2 + i v2)^2) = (2, 0, -2, 0, -1, 0) True
+Delta = 4 example: (1, 0, -1, 0, -1, 0) Delta 4 dual (0, 1, 0, 1, 0, -1) = Im((u1 + i v1)(u2 + i v2)^2): True U-dual True D_S ((0, -1), (1, 0))
+   datum (5, 2, 1, 0, 2, 2) : g_S = ((-2, 5), (-1, 2)) g_T = ((0, 1), (-1, 0)) (g_S, g_T) x = x~: True (g_S, -g_T) x = x~: True
+   datum (2, 1, 2, 1, 1, 1) : g_S = ((-1, 2), (-1, 1)) g_T = ((-1, 2), (-1, 1)) (g_S, g_T) x = x~: True (g_S, -g_T) x = x~: True
+D6-D2 family (1, 0, -r^2, 0, -t, 0), r, t <= 12: Delta = 4r^2t^2, Q_T = t(u^2 + r^2 v^2), dual integral iff r | t, and then x + i x~ = (u1 + i(t/r)v1)(u2 + i r v2)^2; ST^2-U-dual iff r = t, STU-U-dual iff r = 1 or r = t: True
+D0-D6 charges (p0, 0, 0, 0, 0, q0), |p0|, |q0| <= 12: Delta = -p0^2 q0^2, dual integral, U-dual iff |p0| = |q0|: True
+   non-BPS datum (e1, t1, e2, t2, A, B) = (1, 0, 1, 0, 2, 4) -> x = (-2, 0, 0, 0, 0, 1) Delta -4 dual (2, 0, 0, 0, 0, 1) = data dual True U-dual False gcd(x+x~), gcd(x-x~) = 2 4 canon (-2, 0, 0, 0, 0, 1)
+   non-BPS datum (e1, t1, e2, t2, A, B) = (1, 0, 1, 0, 4, 2) -> x = (-1, 0, 0, 0, 0, 2) Delta -4 dual (1, 0, 0, 0, 0, 2) = data dual True U-dual False gcd(x+x~), gcd(x-x~) = 4 2 canon (-2, 0, 0, 0, 0, -1)
+   non-BPS datum (e1, t1, e2, t2, A, B) = (3, 1, 1, 0, 2, 2) -> x = (-3, 0, 0, -1, 0, 1) Delta -9 dual (3, 0, 0, 1, 0, 1) = data dual True U-dual False gcd(x+x~), gcd(x-x~) = 2 2 canon (-3, 0, 0, -1, 0, 1)
+   non-BPS datum (e1, t1, e2, t2, A, B) = (5, 2, 1, 0, 2, 2) -> x = (-5, 0, 0, -2, 0, 1) Delta -25 dual (5, 0, 0, 2, 0, 1) = data dual True U-dual True gcd(x+x~), gcd(x-x~) = 2 2 canon (-5, 0, 0, -2, 0, 1)
+   non-BPS datum (e1, t1, e2, t2, A, B) = (2, 1, 2, 1, 1, 1) -> x = (-4, -2, -1, -2, -1, 0) Delta -4 dual (4, 2, 1, 2, 1, 1) = data dual True U-dual True gcd(x+x~), gcd(x-x~) = 1 1 canon (-4, -2, -1, -2, -1, 0)
+   D0-D6 charge (-2, 0, 0, 0, 0, 1) lies in the orbit of the datum (1, 0, 1, 0, 2, 4) or its dual: True
+ST^2 orbits with integral dual, k, m <= 30: BPS pairs are STU-U-dual iff cont(Q_S) = k or cont(Q_T) = k; non-BPS pairs are STU-U-dual iff ST^2-U-dual: True  (BPS: 1646 orbits, 1550 STU-U-dual, 74 ST^2-U-dual)
+T^3 orbits with integral dual, k, m <= 30 (170 orbits): T^3-, ST^2- and STU-U-duality agree: True

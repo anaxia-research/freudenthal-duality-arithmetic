@@ -1,0 +1,23 @@
+n <= 10 checked (0 s)
+n <= 20 checked (1 s)
+n <= 30 checked (3 s)
+n <= 40 checked (5 s)
+n <= 50 checked (8 s)
+n <= 60 checked (12 s)
+n <= 70 checked (17 s)
+n <= 80 checked (22 s)
+n <= 90 checked (28 s)
+n <= 100 checked (35 s)
+n <= 110 checked (43 s)
+n <= 120 checked (52 s)
+n <= 130 checked (62 s)
+n <= 140 checked (73 s)
+n <= 150 checked (84 s)
+n <= 160 checked (96 s)
+n <= 170 checked (110 s)
+n <= 180 checked (125 s)
+n <= 190 checked (139 s)
+n <= 200 checked (155 s)
+h_+, F_+, E_+, h_-, F_-, E_- agree with the closed formulas for all n <= 200
+each sign of Q_T carries exactly half of the orbits with Delta > 0
+orbits with integral dual: 117109  U-dual: 957

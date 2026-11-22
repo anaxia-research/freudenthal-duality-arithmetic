@@ -1,0 +1,5 @@
+BPS: 73096 orbits with integral dual (k <= 200); U-dual exactly when cont(Q_S) = k (700 orbits), and then D_S = R_S/2k lies in SL2(Z), D_S^2 = -1, (D_S, 1) x = x~
+BPS: 65772 orbits have cont(Q_T) = k but are not U-dual; for them D_T on one T index maps x to x~ (a U-duality of the STU model) and (1, D_T) x = -x
+non-BPS: 44013 orbits with integral dual (m <= 200); U-dual exactly when Q_S ~ -Q_S, Q_T ~ -Q_T and gcd(x+x~) = gcd(x-x~) (257 orbits)
+non-BPS: the real duality (g_S, g_T) with g_T exchanging the T-factors of x + x~ and x - x~ up to sign is found for every orbit; it is integral exactly for the U-dual orbits, and then g_S^2 = g_T^2 = -1 and (g_S, g_T) x = x~
+primitive Q_S and Q_T with integral dual occur only for Delta in [-4, -1, 4]
