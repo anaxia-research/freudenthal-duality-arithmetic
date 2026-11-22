@@ -1,0 +1,7 @@
+Dirichlet-series coefficients agree with the finite formulas for k <= 40
+BPS  X=4K^2, K=1000: N_F/lead = 1.0445, N_E/lead = 0.9091
+nonBPS X=K^2, K=1000: N_F/lead = 1.4884
+BPS  X=4K^2, K=10000: N_F/lead = 1.0177, N_E/lead = 0.9300
+nonBPS X=K^2, K=10000: N_F/lead = 1.3596
+BPS  X=4K^2, K=100000: N_F/lead = 1.0050, N_E/lead = 0.9429
+nonBPS X=K^2, K=100000: N_F/lead = 1.2841

@@ -1,0 +1,9 @@
+non-BPS m=1: cubes 35408, orbits met in box 1 of 1; mismatches 0
+non-BPS m=2: cubes 47200, orbits met in box 6 of 6; mismatches 0
+non-BPS m=3: cubes 28448, orbits met in box 12 of 12; mismatches 0
+non-BPS m=4: cubes 34080, orbits met in box 28 of 28; mismatches 0
+non-BPS m=5: cubes 19104, orbits met in box 28 of 30; mismatches 0
+non-BPS m=6: cubes 20064, orbits met in box 66 of 72; mismatches 0
+non-BPS m=7: cubes 8448, orbits met in box 32 of 56; mismatches 0
+non-BPS m=8: cubes 9024, orbits met in box 78 of 120; mismatches 0
+box check passed
