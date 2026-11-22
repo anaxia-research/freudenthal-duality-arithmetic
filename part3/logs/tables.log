@@ -1,0 +1,7 @@
+n <= 10 checked (0 s)
+n <= 20 checked (1 s)
+n <= 30 checked (3 s)
+n <= 40 checked (5 s)
+h_+, F_+, E_+, h_-, F_-, E_- agree with the closed formulas for all n <= 40
+each sign of Q_T carries exactly half of the orbits with Delta > 0
+orbits with integral dual: 4715  U-dual: 165
