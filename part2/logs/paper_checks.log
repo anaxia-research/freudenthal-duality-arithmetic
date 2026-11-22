@@ -1,0 +1,15 @@
+R = -2HJ: True
+det(2HJ) = Delta: True
+g^T J g = det g J: True
+tr D rho, tr D rho^2: -sqrt(3) sqrt(3)
+(1, 0, -1, 0) Delta 4 T (0, 2, 0, -2) hess (1, 0, 1)
+(1, 0, -4, 0) Delta 256 T (0, 32, 0, -128) hess (4, 0, 16)
+(8, 0, -2, 0) Delta 256 T (0, 64, 0, -16) hess (16, 0, 4)
+(1, 0, 0, 1) Delta -1 T (-1, 0, 0, 1) hess (0, 1, 0)
+(2, 0, 0, 1) Delta -4 T (-4, 0, 0, 2) hess (0, 2, 0)
+(-4, -2, -1, 0) Delta -4 T (-8, -4, -2, -2) hess (0, -2, 1)
+(-125, -50, -20, -7) Delta -15625 T (-15625, -6250, -2500, -1125) hess (0, -125, 50)
+c1 1.56392317442309242941344669027 c0 -1.58186620592611693643801753839
+single slot: True
+R_T = Delta R: True
+rotation formulas: max relative error 4.11468384577531660461615991762e-25
